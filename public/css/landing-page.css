@@ -1797,3 +1797,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 .logo-container .xfera-logo img{
     height: 100%;
 }
+
+
+.logo-container .xfera-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+}

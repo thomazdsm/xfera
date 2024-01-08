@@ -2,6 +2,10 @@
 
 @section('css')
     <style>
+        .xfera-container {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
         .teste {
             display: flex;
             justify-content: center; /* Centraliza horizontalmente */
@@ -16,53 +20,38 @@
             margin-left: 100px;
             margin-right: 100px;
         }
+
+        .bg-xfera {
+            background: rgb(58,82,32);
+            background: linear-gradient(0deg, rgba(58,82,32,1) 0%, rgba(125,169,75,1) 100%);
+        }
+
+        .xfera-presentation-title {
+            font-size: 8em;
+            font-weight: 700;
+            margin: 0;
+            color: #fff;
+            background: #fbf8ec;
+            background: linear-gradient(180deg,#fff 95%,#4e6773);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent
+        }
+
+        .xfera-presentation-subtitle {
+            font-size: 1.7em;
+            color: #fff
+        }
     </style>
 @stop
 
 @section('content')
-    <div class="parallax filter-gradient blue full-xfera" data-color="blue">
-        <div class="parallax-background">
-            <img class="parallax-background-image" src="{{ asset('img/template/bg3.jpg') }}"  alt="Template Background"/>
-        </div>
-{{--        <div class="container col-md-12 teste" style="">--}}
-{{--            <h1 style="color: whitesmoke">XFERA TECH</h1>--}}
-{{--            <img src="{{ asset('img/xfera/xferatech.png') }}" alt="" style="height: 25px;">--}}
-{{--        </div>--}}
-
-        <div class= "container teste">
-{{--            <div class="row">--}}
-                <div class="col-md-5 hidden-xs">
-                    <div class="parallax-image">
-                        <img class="phone" src="{{ asset('img/xfera/xferatech.png') }}" style="margin-top: 20px"/>
-                    </div>
-                </div>
-                <div class="col-md-6 col-md-offset-1">
-                    <div class="description">
-                        <h2>Awesome landing page.</h2>
-                        <br>
-                        <h5>Be amazed by the best looking bootstrap landing page on the web! Your new app deserves an amazing page to show all of its features. Clear visual, light colours and beautifully aligned elements - they all try to make the users aware of your great app features!</h5>
-                    </div>
-                    <div class="buttons">
-                        <button class="btn btn-fill btn-neutral">
-                            <i class="fa fa-apple"></i> Appstore
-                        </button>
-                        <button class="btn btn-simple btn-neutral">
-                            <i class="fa fa-android"></i>
-                        </button>
-                        <button class="btn btn-simple btn-neutral">
-                            <i class="fa fa-windows"></i>
-                        </button>
-                    </div>
-{{--                </div>--}}
-            </div>
-        </div>
-    </div>
+    @include('components.home')
 
     <div class="section section-gray section-clients">
         <div class="container text-center">
-            <h4 class="header-text">Friends in high places</h4>
+            <h4 class="header-text">Sobre a XFera Tech</h4>
             <p>
-                Build customer confidence by listing your users! Anyone who has used your service and has been pleased with it should have a place here! From Fortune 500 to start-ups, all your app enthusiasts will be glad to be featured in this section. Moreover, users will feel confident seing someone vouching for your product!<br>
+                A XFera Tech é uma empresa de tecnologia fundada em 2023. Nosso foco é o desenvolvimento de plataformas para eventos acadêmicos e ensino EAD. Oferecemos soluções inovadoras e personalizadas que ajudam nossos clientes a alcançar seus objetivos.
             </p>
             <div class="logos">
                 <ul class="list-unstyled">
@@ -81,7 +70,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="description">
-                        <h4 class="header-text">It's beautiful</h4>
+                        <h4 class="header-text">Nossos produtos</h4>
                         <p>And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share. Focus on the benefits that the uers will receive. Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are. </p>
                         <p>Try to make it very clear for the people browsing the page that this product will enrich their life and will make a nice addition to the homescreen.
                         <p>
@@ -117,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
-                    <h4 class="header-text">Easy to integrate</h4>
+                    <h4 class="header-text">Multiplataforma</h4>
                     <p>
                         With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
                     </p>
@@ -127,7 +116,7 @@
         </div>
     </div>
     <div class="section section-features">
-        <div class="container">
+        <div class="xfera-container">
             <h4 class="header-text text-center">Features</h4>
             <div class="row">
                 <div class="col-md-4">
@@ -136,7 +125,7 @@
                             <i class="pe-7s-note2"></i>
                         </div>
                         <div class="text">
-                            <h4>Online Customers Management</h4>
+                            <h4>Ambiente Virtual de Aprendizagem</h4>
                             <p>All appointments sync with your Google calendar so your availability is always up to date. See your schedule at a glance from any device.</p>
                         </div>
                     </div>
@@ -146,7 +135,7 @@
                         <div class="icon">
                             <i class="pe-7s-bell"></i>
                         </div>
-                        <h4>Smart Notifications on hands</h4>
+                        <h4>Plataforma de Eventos</h4>
                         <p>Automatic text and email reminders make sure customers always remember their upcoming appointments.</p>
                     </div>
                 </div>
@@ -155,7 +144,7 @@
                         <div class="icon">
                             <i class="pe-7s-graph1"></i>
                         </div>
-                        <h4>Know your business better now</h4>
+                        <h4>Sistemas Personalizados</h4>
                         <p>Take payments and run your business on the go, in your store and then see how it all adds up with analytics.</p>
                     </div>
                 </div>
@@ -164,7 +153,7 @@
     </div>
     <div class="section section-testimonial">
         <div class="container">
-            <h4 class="header-text text-center">What people think</h4>
+            <h4 class="header-text text-center">Nossos clientes</h4>
             <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -210,9 +199,18 @@
                 <img class ="parallax-background-image" src="{{ asset('img/template/bg3.jpg') }}"/>
             </div>
             <div class="info">
-                <h1>Download this landing page for free!</h1>
+                <h1>Nossa Equipe</h1>
                 <p>Beautiful multipurpose bootstrap landing page.</p>
-                <a href="http://www.creative-tim.com/product/awesome-landing-page" class="btn btn-neutral btn-lg btn-fill">DOWNLOAD</a>
+            </div>
+        </div>
+    </div>
+    <div class="section section-no-padding">
+        <div class="parallax filter-gradient blue" data-color="blue">
+            <div class="parallax-background">
+            </div>
+            <div class="info">
+                <h1>Contato</h1>
+                <p>Beautiful multipurpose bootstrap landing page.</p>
             </div>
         </div>
     </div>

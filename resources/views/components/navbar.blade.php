@@ -10,8 +10,9 @@
             </button>
             <a href="#">
                 <div class="logo-container">
-                    <div class="xfera-logo">
-                        <img src="https://xfera.tech/img/new/xferatech_name.png" alt="Creative Tim Logo">
+                    <div class="xfera-brand">
+                        XFera Tech
+{{--                        <img src="https://xfera.tech/img/new/xferatech_name.png" alt="Creative Tim Logo">--}}
                     </div>
                 </div>
             </a>

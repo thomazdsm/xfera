@@ -27,6 +27,7 @@
 
     @include('components.footer')
 
+    @include('components.vlibras')
     <script src="{{ asset('js/jquery-1.10.2.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/jquery-ui-1.10.4.custom.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('js/bootstrap.js') }}" type="text/javascript"></script>

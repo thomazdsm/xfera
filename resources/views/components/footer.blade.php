@@ -36,7 +36,7 @@
             </a>
         </div>
         <div class="copyright">
-            &copy; 2023 <a href="#">XFera Tech</a>
+            Copyright &copy; 2023 <a href="#">XFera Tech</a>. Todos os direitos reservados
         </div>
     </div>
 </footer>
