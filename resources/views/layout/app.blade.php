@@ -1,38 +1,47 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://block.codescandy.com/landing-finance.html -->
+<html lang="en" data-bs-theme="light">
 <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>{{ config('app.name') }}</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" />
-    <link href="{{ asset('css/landing-page.css') }}" rel="stylesheet"/>
+    <title>XFera Tech</title>
+    <link rel="icon" type="image/png" href="{{ asset('img/xfera/logo.png') }}">
 
-    <!--     Fonts and icons     -->
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4d3192896f.js" crossorigin="anonymous"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
-    <link href="{{ asset('css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
 
-    @yield('css')
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="{{ asset('libs/swiper/package/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('libs/bootstrap-icons/font/bootstrap-icons.min.css') }}">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
 </head>
-<body class="landing-page landing-page1">
+<body style="">
     @include('components.navbar')
 
-    <div class="wrapper">
+    <main>
         @yield('content')
-    </div>
+    </main>
 
     @include('components.footer')
 
-    @include('components.vlibras')
-    <script src="{{ asset('js/jquery-1.10.2.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('js/jquery-ui-1.10.4.custom.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('js/bootstrap.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('js/awesome-landing-page.js') }}" type="text/javascript"></script>
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z"
+                  style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 139.989, 139.989; stroke-dashoffset: 139.989;"></path>
+        </svg>
+    </div>
 
-    @yield('js')
+    <!-- Libs JS -->
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/headhesive.min.js') }}"></script>
+    <script src="{{ asset('js/parallax.min.js') }}"></script>
+    <script src="{{ asset('js/parallax.js') }}"></script>
+    <script src="{{ asset('libs/swiper/package/swiper-bundle.min.js') }}"></script>
+    <!-- Theme JS -->
+    <script src="{{ asset('js/theme.min.js') }}"></script>
 </body>
 </html>

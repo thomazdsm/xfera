@@ -1,217 +1,519 @@
 @extends('layout.app')
 
-@section('css')
-    <style>
-        .xfera-container {
-            margin-left: 200px;
-            margin-right: 200px;
-        }
-        .teste {
-            display: flex;
-            justify-content: center; /* Centraliza horizontalmente */
-            align-items: center; /* Centraliza verticalmente */
-            height: 100%; /* Garante que a div ocupe toda a altura da div parallax */
-        }
-        .full-xfera {
-            height: 100vh !important;
-        }
-
-        .xfera-navbar {
-            margin-left: 100px;
-            margin-right: 100px;
-        }
-
-        .bg-xfera {
-            background: rgb(58,82,32);
-            background: linear-gradient(0deg, rgba(58,82,32,1) 0%, rgba(125,169,75,1) 100%);
-        }
-
-        .xfera-presentation-title {
-            font-size: 8em;
-            font-weight: 700;
-            margin: 0;
-            color: #fff;
-            background: #fbf8ec;
-            background: linear-gradient(180deg,#fff 95%,#4e6773);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
-        }
-
-        .xfera-presentation-subtitle {
-            font-size: 1.7em;
-            color: #fff
-        }
-    </style>
-@stop
-
 @section('content')
     @include('components.home')
 
-    <div class="section section-gray section-clients">
-        <div class="container text-center">
-            <h4 class="header-text">Sobre a XFera Tech</h4>
-            <p>
-                A XFera Tech é uma empresa de tecnologia fundada em 2023. Nosso foco é o desenvolvimento de plataformas para eventos acadêmicos e ensino EAD. Oferecemos soluções inovadoras e personalizadas que ajudam nossos clientes a alcançar seus objetivos.
-            </p>
-            <div class="logos">
-                <ul class="list-unstyled">
-                    <li ><img src="{{ asset('img/logos/adobe.png') }}"/></li>
-                    <li ><img src="{{ asset('img/logos/zendesk.png') }}"/></li>
-                    <li ><img src="{{ asset('img/logos/ebay.png') }}"/></li>
-                    <li ><img src="{{ asset('img/logos/evernote.png') }}"/></li>
-                    <li ><img src="{{ asset('img/logos/airbnb.png') }}"/></li>
-                    <li ><img src="{{ asset('img/logos/zappos.png') }}"/></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="section section-presentation">
+
+    <!--Featured in start-->
+    <div class="my-xl-9 my-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="description">
-                        <h4 class="header-text">Nossos produtos</h4>
-                        <p>And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share. Focus on the benefits that the uers will receive. Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are. </p>
-                        <p>Try to make it very clear for the people browsing the page that this product will enrich their life and will make a nice addition to the homescreen.
-                        <p>
+                <div class="col-lg-10 offset-lg-1 col-12" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="text-center mb-4 mb-lg-7">
+                        <small class="text-uppercase fw-semibold ls-md">As featured in</small>
                     </div>
-                </div>
-                <div class="col-md-5 col-md-offset-1 hidden-xs">
-                    <img src="{{ asset('img/template/mac.png') }}"/>
+
+                    <div class="swiper logoSwiper swiper-initialized swiper-horizontal swiper-backface-hidden" data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="swiper-wrapper pb-7" id="swiper-wrapper-68ca65b31865d09b" aria-live="off">
+                            <div class="swiper-slide swiper-slide-active" style="width: 172.2px; margin-right: 50px;" role="group" aria-label="1 / 5" data-swiper-slide-index="0">
+                                <div data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                                    <figure class="text-center">
+                                        <img src="{{ asset('img/clients-logo-1.svg') }}" alt="logo">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" style="width: 172.2px; margin-right: 50px;" role="group" aria-label="2 / 5" data-swiper-slide-index="1">
+                                <div data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+                                    <figure class="text-center">
+                                        <img src="{{ asset('img/clients-logo-2.svg') }}" alt="logo">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="width: 172.2px; margin-right: 50px;" role="group" aria-label="3 / 5" data-swiper-slide-index="2">
+                                <div data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 600ms; animation-direction: normal; animation-fill-mode: both;">
+                                    <figure class="text-center">
+                                        <img src="{{ asset('img/clients-logo-3.svg') }}" alt="logo">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="width: 172.2px; margin-right: 50px;" role="group" aria-label="4 / 5" data-swiper-slide-index="3">
+                                <div data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 800ms; animation-direction: normal; animation-fill-mode: both;">
+                                    <figure class="text-center">
+                                        <img src="{{ asset('img/clients-logo-4.svg') }}" alt="logo">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="5 / 5" data-swiper-slide-index="4" style="width: 172.2px; margin-right: 50px;">
+                                <div data-cue="slideInDown" data-show="true" style="animation-name: slideInDown; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 1000ms; animation-direction: normal; animation-fill-mode: both;">
+                                    <figure class="text-center">
+                                        <img src="{{ asset('img/clients-logo-5.svg') }}" alt="logo">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic swiper-pagination-lock" style="width: 90px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" aria-current="true" style="left: 36px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next" style="left: 36px;"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" style="left: 36px;"></span><span class="swiper-pagination-bullet" style="left: 36px;"></span><span class="swiper-pagination-bullet" style="left: 36px;"></span></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section section-demo">
+    <!--Featured in end-->
+
+    <!--Your finance start-->
+    <section class="my-xl-9 my-5">
+        <div class="container" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2">
+                    <div class="text-center mb-xl-7 mb-5">
+                        <h2 class="mb-3">
+                            A one-stop shop for
+                            <span class="text-primary">your finances.</span>
+                        </h2>
+                        <p class="mb-0">Designed to work better together erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive-lg">
+                <div class="row flex-nowrap pb-4 pb-lg-0 me-5 me-lg-0">
+                    <div class="col-lg-4 col-md-6" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="card border-0 card-primary">
+                            <div class="card-body p-5">
+                                <div class="position-relative d-inline-block mb-5">
+                                    <img src="{{ asset('img/feature-img-1.jpg') }}" alt="feature" class="avatar avatar-xl rounded-circle border-2 border border-white shadow-sm">
+
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <div class="icon-md icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bank2 text-primary" viewBox="0 0 16 16">
+                                                <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-5">
+                                    <h4 class="card-title">Checking accounts</h4>
+                                    <p class="mb-0 card-text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lacinia gsmod dui euismod id.</p>
+                                </div>
+
+                                <a href="https://block.codescandy.com/landing-finance.html#!" class="icon-link icon-link-hover card-link">
+                                    View All Accounts
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="card border-0 card-primary">
+                            <div class="card-body p-5">
+                                <div class="position-relative d-inline-block mb-5">
+                                    <img src="{{ asset('img/feature-img-2.jpg') }}" alt="feature" class="avatar avatar-xl rounded-circle border-2 border border-white shadow-sm">
+
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <div class="icon-md icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-credit-card-2-front-fill text-primary" viewBox="0 0 16 16">
+                                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-5">
+                                    <h4 class="card-title">Credit cards</h4>
+                                    <p class="mb-0 card-text">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend.</p>
+                                </div>
+
+                                <a href="https://block.codescandy.com/landing-finance.html#!" class="icon-link icon-link-hover card-link">
+                                    Apply Credit Cards
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="card border-0 card-primary">
+                            <div class="card-body p-5">
+                                <div class="position-relative d-inline-block mb-5">
+                                    <img src="{{ asset('img/feature-img-3.jpg') }}" alt="feature" class="avatar avatar-xl rounded-circle border-2 border border-white shadow-sm">
+
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <div class="icon-md icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cash-stack text-primary" viewBox="0 0 16 16">
+                                                <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                                                <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-5">
+                                    <h4 class="card-title">Investment</h4>
+                                    <p class="mb-0 card-text">In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum.</p>
+                                </div>
+
+                                <a href="https://block.codescandy.com/landing-finance.html#!" class="icon-link icon-link-hover card-link">
+                                    Start Investments
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="col-xl-10 offset-xl-1">
+                    <ul class="list-inline">
+                        <li class="list-inline-item d-inline-flex align-items-center me-3 mb-2 mb-lg-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                            </svg>
+                            <span class="ms-2">24/7 account monitoring</span>
+                        </li>
+                        <li class="list-inline-item d-inline-flex align-items-center me-3 mb-2 mb-lg-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                            </svg>
+                            <span class="ms-2 me-3">Protection &amp; peace of mind</span>
+                        </li>
+                        <li class="list-inline-item d-inline-flex align-items-center me-3 mb-2 mb-lg-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                            </svg>
+                            <span class="ms-2">Anytime, anywhere support</span>
+                        </li>
+                        <li class="list-inline-item d-inline-flex align-items-center me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                            </svg>
+                            <span class="ms-2">Serious security</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Your finance end-->
+
+    <!--5m member start-->
+    <section class="py-xl-9 py-5 bg-primary-dark">
+        <div class="container" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-12">
+                    <div class="text-center mb-xl-7 mb-5">
+                        <h2 class="text-white-stable mb-3">Why do over 5M members love?</h2>
+                        <p class="mb-0 text-white-50">
+                            Enim sed parturient sem enim nunc sit erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-7 pb-4 g-5 text-center text-lg-start">
+                <div class="col-md-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <h4 class="text-white-stable">Flexible payments</h4>
+                    <p class="text-white-50 mb-0">you are able to run your business smoothly; handle your daily expenses and secure your cash flow.</p>
+                </div>
+                <div class="col-md-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                    <h4 class="text-white-stable">Smart payments</h4>
+                    <p class="text-white-50 mb-0">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend..</p>
+                </div>
+                <div class="col-md-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+                    <h4 class="text-white-stable">Easy administration</h4>
+                    <p class="text-white-50 mb-0">In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum. Vivamus sit amet luctus leo.</p>
+                </div>
+            </div>
+            <div class="row border-primary border-top g-5 g-lg-0 text-center text-lg-start" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="col-lg-3 col-6 border-end-lg border-md-0 border-lg-primary" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="p-lg-5">
+                        <h5 class="h1 text-white-stable mb-0">5M+</h5>
+                        <span class="text-white-50">Members</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 border-end-lg border-md-0 border-lg-primary" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="p-lg-5">
+                        <h5 class="h1 text-white-stable mb-0">95%</h5>
+                        <span class="text-white-50">Customer satisfaction</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 border-end-lg border-md-0 border-lg-primary" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="p-lg-5">
+                        <h5 class="h1 text-white-stable mb-0">73%</h5>
+                        <span class="text-white-50">Over year growth</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 600ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="p-lg-5">
+                        <h5 class="h1 text-white-stable mb-0">250B</h5>
+                        <span class="text-white-50">Money managed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--5m member end-->
+
+    <!--Product designer start-->
+    <section class="my-xl-9 my-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div id="description-carousel" class="carousel fade" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="item">
-                                <img src="{{ asset('img/template/examples/home_33.jpg') }}" alt="">
-                            </div>
-                            <div class="item active">
-                                <img src="{{ asset('img/template/examples/home_22.jpg') }}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('img/template/examples/home_11.jpg') }}" alt="">
-                            </div>
-                        </div>
-                        <ol class="carousel-indicators carousel-indicators-blue">
-                            <li data-target="#description-carousel" data-slide-to="0" class=""></li>
-                            <li data-target="#description-carousel" data-slide-to="1" class="active"></li>
-                            <li data-target="#description-carousel" data-slide-to="2" class=""></li>
-                        </ol>
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="text-center mb-xl-7 mb-5" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                        <h2 class="mb-3">
+                            Products designed for
+                            <span class="text-primary">all sizes businesses.</span>
+                        </h2>
+                        <p class="mb-0">Enim sed parturient sem enim nunc sit erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.</p>
                     </div>
                 </div>
-                <div class="col-md-5 col-md-offset-1">
-                    <h4 class="header-text">Multiplataforma</h4>
-                    <p>
-                        With all the apps that users love! Make it easy for users to share, like, post and tweet their favourite things from the app. Be sure to let users know they continue to remain connected while using your app!
-                    </p>
-                    <a href="http://www.creative-tim.com/product/awesome-landing-page" id="Demo3" class="btn btn-fill btn-info" data-button="info">Get Free Demo</a>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-md-6 col-12">
+                    <div class="nav flex-column nav-pills mb-5 mb-lg-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a href="https://block.codescandy.com/landing-finance.html#" class="nav-link active d-flex text-start align-items-center align-items-lg-start p-xl-4 p-3" id="v-pills-small-business-tab" data-bs-toggle="pill" data-bs-target="#v-pills-small-business" role="tab" aria-controls="v-pills-small-business" aria-selected="true">
+                            <div class="d-flex">
+                                <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bank2 text-primary" viewBox="0 0 16 16">
+                                        <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="mb-0">For small business</h4>
+                                <p class="mb-0 mt-lg-3 d-none d-lg-block">Interdum et malesuad a fames ac ante ipsum primis in faucibus. Simple dummy content. Sed lacinia gsmod dui euismod id.</p>
+                            </div>
+                        </a>
+                        <a href="https://block.codescandy.com/landing-finance.html#" class="nav-link d-flex text-start align-items-center align-items-lg-start p-xl-4 p-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">
+                            <div class="d-flex">
+                                <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-credit-card-2-front-fill text-primary" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="mb-0">For startups</h4>
+                                <p class="mb-0 mt-lg-3 d-none d-lg-block">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend. Simple dummy content.</p>
+                            </div>
+                        </a>
+                        <a href="https://block.codescandy.com/landing-finance.html#" class="nav-link d-flex text-start p-xl-4 p-3 align-items-center align-items-lg-start" id="v-pills-enterprises-tab" data-bs-toggle="pill" data-bs-target="#v-pills-enterprises" role="tab" aria-controls="v-pills-enterprises" aria-selected="false" tabindex="-1">
+                            <div class="d-flex">
+                                <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cash-stack text-primary" viewBox="0 0 16 16">
+                                        <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                                        <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="mb-0">For enterprises</h4>
+                                <p class="mb-0 mt-lg-3 d-none d-lg-block">
+                                    In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum. Vivamus sit amet luctus leo. Simple dummy content.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6 offset-xl-1 col-md-6 col-12">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-small-business" role="tabpanel" aria-labelledby="v-pills-small-business-tab" tabindex="0">
+                            <div class="position-relative scene" data-relative-input="true" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                                <figure style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"><img src="{{ asset('img/finance-tab-3.jpg') }}" alt="finance" class="img-fluid rounded-3" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;"></figure>
+
+                                <div class="position-relative" data-depth="0.05" style="transform: translate3d(-5px, 28.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+                                    <img src="{{ asset('img/card.svg') }}" alt="" class="position-absolute bottom-0 end-0 px-4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="position-relative scene" data-relative-input="true" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                                <figure style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"><img src="{{ asset('img/finance-tab-2.jpg') }}" alt="finance" class="img-fluid rounded-3" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;"></figure>
+
+                                <div class="position-relative" data-depth="0.05" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+                                    <img src="{{ asset('img/card.svg') }}" alt="" class="position-absolute bottom-0 start-0 px-4">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-enterprises" role="tabpanel" aria-labelledby="v-pills-enterprises-tab" tabindex="0">
+                            <div class="position-relative scene" data-relative-input="true" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                                <figure style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"><img src="{{ asset('img/finance-tab-1.jpg') }}" alt="finance" class="img-fluid rounded-3"></figure>
+
+                                <div class="position-relative" data-depth="0.05" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;">
+                                    <img src="{{ asset('img/card.svg') }}" alt="" class="position-absolute bottom-0 start-50 translate-middle-x">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section section-features">
-        <div class="xfera-container">
-            <h4 class="header-text text-center">Features</h4>
+    </section>
+    <!--Product designer end-->
+
+    <!--Get block card start-->
+    <section class="my-xl-7 py-5">
+        <div class="container" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card card-blue">
-                        <div class="icon">
-                            <i class="pe-7s-note2"></i>
+                <div class="col-lg-5 col-md-12" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="mb-xl-7 mb-5">
+                        <h2 class="mb-3">
+                            How to get a Block Card in a
+                            <span class="text-primary">simple 3 steps</span>
+                        </h2>
+                        <p class="mb-0">Designed to work better together erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="table-responsive-xl">
+                <div class="row flex-nowrap pb-4 pb-lg-0 me-5 me-lg-0">
+                    <div class="col-lg-4 col-md-6 col-12" data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="p-xl-5">
+                            <div class="d-flex align-items-center justify-content-between mb-5">
+                                <div class="icon-xl icon-shape rounded-circle bg-primary border border-primary-subtle border-4 text-white-stable fw-semibold fs-3">1</div>
+                                <span>
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right text-body-tertiary" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                     </svg>
+                                  </span>
+                            </div>
+
+                            <h3 class="h4">Sign up for a free account</h3>
+                            <p class="mb-0">Apply online on block website and fill the form by telling us your name, address, date of birth.</p>
                         </div>
-                        <div class="text">
-                            <h4>Ambiente Virtual de Aprendizagem</h4>
-                            <p>All appointments sync with your Google calendar so your availability is always up to date. See your schedule at a glance from any device.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="p-xl-5">
+                            <div class="d-flex align-items-center justify-content-between mb-5">
+                                <div class="icon-xl icon-shape rounded-circle bg-primary border border-primary-subtle border-4 text-white-stable fw-semibold fs-3">2</div>
+                                <span>
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right text-body-tertiary" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                     </svg>
+                                  </span>
+                            </div>
+
+                            <h3 class="h4">Fill in your details</h3>
+                            <p class="mb-0">Get started on block or log into the mobile app. Bank account to transfer money to your debit card.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12" data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="p-xl-5">
+                            <div class="d-flex align-items-center justify-content-between mb-5">
+                                <div class="icon-xl icon-shape rounded-circle bg-primary border border-primary-subtle border-4 text-white-stable fw-semibold fs-3">3</div>
+                                <span>
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-circle-fill text-success" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                     </svg>
+                                  </span>
+                            </div>
+
+                            <h3 class="h4">Start converting!</h3>
+                            <p class="mb-0">Set up direct deposit or connect your current bank account to transfer money to your debit card.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card card-blue">
-                        <div class="icon">
-                            <i class="pe-7s-bell"></i>
-                        </div>
-                        <h4>Plataforma de Eventos</h4>
-                        <p>Automatic text and email reminders make sure customers always remember their upcoming appointments.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card card-blue">
-                        <div class="icon">
-                            <i class="pe-7s-graph1"></i>
-                        </div>
-                        <h4>Sistemas Personalizados</h4>
-                        <p>Take payments and run your business on the go, in your store and then see how it all adds up with analytics.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                    <div class="text-center my-5">
+                        <a href="https://block.codescandy.com/landing-finance.html#!" class="btn btn-outline-primary">Open an Account</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section section-testimonial">
-        <div class="container">
-            <h4 class="header-text text-center">Nossos clientes</h4>
-            <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item">
-                        <div class="mask">
-                            <img src="{{ asset('img/faces/face-4.jpg') }}">
-                        </div>
-                        <div class="carousel-testimonial-caption">
-                            <p>Jay Z, Producer</p>
-                            <h3>"I absolutely love your app! It's truly amazing and looks awesome!"</h3>
-                        </div>
+    </section>
+    <!--Get block card end-->
+
+    <!--Customer stories start-->
+    <section class="py-xl-9 py-5 bg-gray-100">
+        <div class="container" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="text-center mb-xl-7 mb-5">
+                        <h2 class="mb-3">Customer success stories</h2>
+                        <p class="mb-0">Create convincing customer success stories to boost sales, build trust with prospects and increase customer loyalty.</p>
                     </div>
-                    <div class="item active">
-                        <div class="mask">
-                            <img src="{{ asset('img/faces/face-3.jpg') }}">
-                        </div>
-                        <div class="carousel-testimonial-caption">
-                            <p>Drake, Artist</p>
-                            <h3>"This is one of the most awesome apps I've ever seen! Wish you luck Creative Tim!"</h3>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="mask">
-                            <img src="{{ asset('img/faces/face-2.jpg') }}">
-                        </div>
-                        <div class="carousel-testimonial-caption">
-                            <p>Rick Ross, Musician</p>
-                            <h3>"Loving this! Just picked it up the other day. Thank you for the work you put into this."</h3>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-12">
+                    <!-- Testimonials with logo -->
+                    <div class="card shadow-sm" data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="card-body">
+                            <p class="mb-5 lead">
+                                “Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt, lectus non finibus porta, ipsum lacus tempus quam, a iaculis metus ipsum sed elit.”
+                            </p>
+                            <div class="d-md-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center mb-3 mb-lg-0">
+                                    <div>
+                                        <img src="{{ asset('img/avatar-1.jpg') }}" alt="Avatar" class="avatar avatar-lg rounded-circle">
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="mb-0 h5">Jitu Chauhan</h6>
+                                        <span class="small text-body-tertiary">Front End Developers @codescandy</span>
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block text-inverse">
+                                    <img src="{{ asset('img/logoipsum-1.svg') }}" alt="logo">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <ol class="carousel-indicators carousel-indicators-blue">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
+                <div class="col-lg-6 col-md-12">
+                    <!-- Testimonials with logo -->
+                    <div class="card shadow-sm" data-cue="slideInRight" data-show="true" style="animation-name: slideInRight; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="card-body">
+                            <p class="mb-5 lead">
+                                "Cum molestias sed quam eos repudiandae repellat! Sunt ex atque tempore eligendi magni vel obcaecati facere. Cupiditate repellat deleniti eos eum atque possimus ducimus
+                                quis."
+                            </p>
+                            <div class="d-md-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center mb-3 mb-lg-0">
+                                    <div>
+                                        <img src="{{ asset('img/avatar-4.jpg') }}" alt="Avatar" class="avatar avatar-lg rounded-circle">
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="mb-0 h5">Sandeep Chauhan</h6>
+                                        <span class="small text-body-tertiary">Front End Developers @codescandy</span>
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block text-inverse">
+                                    <img src="{{ asset('img/logoipsum-2.svg') }}" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="section section-no-padding">
-        <div class="parallax filter-gradient blue" data-color="blue">
-            <div class="parallax-background">
-                <img class ="parallax-background-image" src="{{ asset('img/template/bg3.jpg') }}"/>
-            </div>
-            <div class="info">
-                <h1>Nossa Equipe</h1>
-                <p>Beautiful multipurpose bootstrap landing page.</p>
+    </section>
+    <!--Customer stories end-->
+
+    <!--Call to action start-->
+    <section>
+        <div style="background-image: url({{ asset('img/cta-pattern.png') }}); background-position: center; background-repeat: no-repeat; background-size: cover" class="py-7 bg-primary-dark">
+            <div class="container my-lg-7" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="text-center mb-5">
+                            <h2 class="text-white-stable mb-3">Experience the next-gen banking</h2>
+                            <p class="mb-0 text-white-50">
+                                Enim sed parturient sem enim nunc sit erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <a href="https://block.codescandy.com/landing-finance.html#!" class="btn btn-primary">Open an account today</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="section section-no-padding">
-        <div class="parallax filter-gradient blue" data-color="blue">
-            <div class="parallax-background">
-            </div>
-            <div class="info">
-                <h1>Contato</h1>
-                <p>Beautiful multipurpose bootstrap landing page.</p>
-            </div>
-        </div>
-    </div>
+    </section>
+    <!--Call to action end-->
+
+    @include('components.contato')
 @endsection
