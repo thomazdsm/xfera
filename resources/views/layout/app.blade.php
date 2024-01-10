@@ -8,6 +8,9 @@
     <title>XFera Tech</title>
     <link rel="icon" type="image/png" href="{{ asset('img/xfera/logo.png') }}">
 
+    <!-- Libs JS -->
+    <script src="{{ asset('js/color-modes.js') }}"></script> {{-- Importante para o Light/Dark Mode --}}
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4d3192896f.js" crossorigin="anonymous"></script>
 
