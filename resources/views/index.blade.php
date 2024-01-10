@@ -10,8 +10,7 @@
     @include('components.section3') {{-- Step by Step --}}
 
     @include('components.testimonials') {{-- Testimonials --}}
+    @include('components.contato') {{-- Blank Section --}}
 
     @include('components.section4') {{-- Start using --}}
-
-    @include('components.contato') {{-- Blank Section --}}
 @endsection

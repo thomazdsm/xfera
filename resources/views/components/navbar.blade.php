@@ -28,8 +28,35 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Item 4</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item 5</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acessibilidade</a>
+                            <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-header">Alto Contraste</div>
+                                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi theme-icon bi-sun-fill"></i>
+                                        <div class="ms-3">
+                                            <h5 class="mb-1">Claro</h5>
+                                        </div>
+                                    </div>
+                                </button>
+                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi theme-icon bi-moon-stars-fill"></i>
+                                        <div class="ms-3">
+                                            <h5 class="mb-1">Escuro</h5>
+                                        </div>
+                                    </div>
+                                </button>
+                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi theme-icon bi-circle-half"></i>
+                                        <div class="ms-3">
+                                            <h5 class="mb-1">Automático</h5>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
                         </li>
                     </ul>
                     <div class="mt-3 mt-lg-0 d-flex align-items-center">

@@ -20,6 +20,8 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 </head>
 <body style="">
     @include('components.navbar')

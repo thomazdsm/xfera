@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-6 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+        <div class="row mt-6 xt-text-center-768" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
             <div class="col-xl-10 offset-xl-1">
                 <ul class="list-inline">
                     <li class="list-inline-item d-inline-flex align-items-center me-3 mb-2 mb-lg-0">
