@@ -7,49 +7,27 @@
                 <div class="col-lg-6 col-12">
                     <div class="me-xl-7">
                         <div class="mb-5">
-                            <h1 class="mb-3">Contact our sales team</h1>
-                            <p>Connect with us today to learn more about how Block can help you grow your business.</p>
+                            <h1 class="mb-3">Fale com a nossa equipe</h1>
+                            <p>
+                                Queremos ouvir de você! Entre em contato para discutir suas necessidades específicas,
+                                explorar oportunidades de colaboração ou esclarecer dúvidas. Estamos prontos para
+                                transformar suas ideias em realidade e impulsionar a excelência em educação juntos.
+                            </p>
                         </div>
                         <div class="mb-5">
                             <ul class="list-unstyled">
-                                <li class="mb-2 d-flex">
-                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                   <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-                                </svg>
-                             </span>
-                                    <span class="ms-2">Access the world’s easiest drag-and-drop design tool.</span>
+                                <li>
+                                    <i class="fa-solid fa-house"></i> Rua da Filosofia, Cohafuma - São Luís/MA - Brasil
                                 </li>
-                                <li class="mb-2 d-flex">
-                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                   <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-                                </svg>
-                             </span>
-                                    <span class="ms-2">Design &amp; collaborate together from any device, anywhere in the world.</span>
-                                </li>
-                                <li class="mb-2 d-flex">
-                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                   <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-                                </svg>
-                             </span>
-                                    <span class="ms-2">Ensure brand consistency with built controls and workflows for approvals.</span>
-                                </li>
-                                <li class="mb-5 d-flex">
-                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                   <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
-                                </svg>
-                             </span>
-                                    <span class="ms-2">Discover the perfect personalized plan for your needs.</span>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i> contato@xfera.tech
                                 </li>
                             </ul>
 
                             <p class="mb-0">
-                                For technical issue or general inquiries, please
+                                Para questões técnicas ou dúvidas gerais, por favor
                                 <br>
-                                <a href="#" class="text-primary">visit our Help Centre.</a>
+                                <a href="#" class="text-primary">acesse a Central de Ajuda.</a>
                             </p>
                         </div>
                         <div class="row">
@@ -69,47 +47,30 @@
                     <div class="card shadow-sm">
                         <div class="card-body">
                             <form class="row g-3 needs-validation" novalidate="">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <label for="contactFirstNameInput" class="form-label">
-                                        First Name
+                                        Nome Completo
                                         <span class="text-danger">*</span>
                                     </label>
-                                    <input type="text" class="form-control" id="contactFirstNameInput" required="">
-                                    <div class="invalid-feedback">Please enter firstname.</div>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="contactLastNameInput" class="form-label">
-                                        Last Name
-                                        <span class="text-danger">*</span>
-                                    </label>
-                                    <input type="text" class="form-control" id="contactLastNameInput" required="">
-                                    <div class="invalid-feedback">Please enter lastname.</div>
+                                    <input type="text" class="form-control" id="contactFirstNameInput" required="required">
                                 </div>
                                 <div class="col-md-12">
                                     <label for="contactEmailInput" class="form-label">
                                         Email
                                         <span class="text-danger">*</span>
                                     </label>
-                                    <input type="email" class="form-control" id="contactEmailInput" required="">
-                                    <div class="invalid-feedback">Please enter email.</div>
+                                    <input type="email" class="form-control" id="contactEmailInput" required="required">
                                 </div>
                                 <div class="col-md-12">
-                                    <label for="contactCompanyNameInput" class="form-label">Company Name</label>
-                                    <input type="text" class="form-control" id="contactCompanyNameInput" required="">
-                                    <div class="invalid-feedback">Please enter company name.</div>
+                                    <label for="contactPhoneInput" class="form-label">Telefone</label>
+                                    <input type="tel" class="form-control" id="contactPhoneInput">
                                 </div>
                                 <div class="col-md-12">
-                                    <label for="contactPhoneInput" class="form-label">Phone</label>
-                                    <input type="tel" class="form-control" id="contactPhoneInput" required="">
-                                    <div class="invalid-feedback">Please enter phone.</div>
-                                </div>
-                                <div class="col-md-12">
-                                    <label for="contactTextarea" class="form-label">Message</label>
-                                    <textarea class="form-control" id="contactTextarea" rows="4" placeholder="Write to us" required=""></textarea>
-                                    <div class="invalid-feedback">Please enter a message.</div>
+                                    <label for="contactTextarea" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="contactTextarea" rows="4" placeholder="Escreva para nós" required="required"></textarea>
                                 </div>
                                 <div class="d-grid">
-                                    <button class="btn btn-primary" type="submit">Send</button>
+                                    <button class="btn btn-primary" type="submit">Enviar</button>
                                 </div>
                             </form>
                         </div>

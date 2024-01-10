@@ -60,7 +60,7 @@
                         </li>
                     </ul>
                     <div class="mt-3 mt-lg-0 d-flex align-items-center">
-                        <a href="#" class="btn btn-danger">Contato</a>
+                        <a href="#contact" class="btn btn-danger">Contato</a>
                     </div>
                 </div>
             </div>
