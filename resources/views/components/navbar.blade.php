@@ -9,7 +9,9 @@
             </button>
             <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
                 <div class="offcanvas-header">
-                    <a href="https://block.codescandy.com/index.html" class="text-inverse"><img src="{{ asset('img/logo.svg') }}" alt=""></a>
+                    <a href="#" class="text-inverse">
+                        <img src="{{ asset('img/xfera/xferatech_name.png') }}" alt="Logo" style="width: 120px;">
+                    </a>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body pt-0 align-items-center">

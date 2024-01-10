@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/4d3192896f.js" crossorigin="anonymous"></script>
 
     <!-- Libs CSS -->
-    <link rel="stylesheet" href="{{ asset('libs/swiper/package/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('libs/bootstrap-icons/font/bootstrap-icons.min.css') }}">
 
     <!-- Theme CSS -->
@@ -29,6 +29,7 @@
     </main>
 
     @include('components.footer')
+    @include('components.vlibras')
 
     <!-- Scroll top -->
     <div class="btn-scroll-top">
@@ -43,7 +44,8 @@
     <script src="{{ asset('js/headhesive.min.js') }}"></script>
     <script src="{{ asset('js/parallax.min.js') }}"></script>
     <script src="{{ asset('js/parallax.js') }}"></script>
-    <script src="{{ asset('libs/swiper/package/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('js/swiper.js') }}"></script>
     <!-- Theme JS -->
     <script src="{{ asset('js/theme.min.js') }}"></script>
 </body>

@@ -22812,7 +22812,7 @@ b,strong {
 }
 
 .btn-scroll-top:after {
-    color: var(--bs-primary);
+    color: var(--xt-secondary);
     content: "\f145";
     font-family: bootstrap-icons!important;
     font-size: 1.5rem;
