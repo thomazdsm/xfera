@@ -20,42 +20,39 @@
                     <a href="https://block.codescandy.com/landing-finance.html#" class="nav-link active d-flex text-start align-items-center align-items-lg-start p-xl-4 p-3" id="v-pills-small-business-tab" data-bs-toggle="pill" data-bs-target="#v-pills-small-business" role="tab" aria-controls="v-pills-small-business" aria-selected="true">
                         <div class="d-flex">
                             <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bank2 text-secondary" viewBox="0 0 16 16">
-                                    <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"></path>
-                                </svg>
+                                <i class="fa-solid fa-graduation-cap" style="color: var(--xt-secondary)"></i>
                             </div>
                         </div>
                         <div class="ms-4">
                             <h4 class="mb-0">Para Escolas</h4>
-                            <p class="mb-0 mt-lg-3 d-none d-lg-block">Interdum et malesuad a fames ac ante ipsum primis in faucibus. Simple dummy content. Sed lacinia gsmod dui euismod id.</p>
+                            <p class="mb-0 mt-lg-3 d-none d-lg-block">
+                                Atenda às necessidades únicas de escolas com nossas soluções personalizadas, promovendo um ambiente de aprendizado inovador e acessível.
+                            </p>
                         </div>
                     </a>
                     <a href="https://block.codescandy.com/landing-finance.html#" class="nav-link d-flex text-start align-items-center align-items-lg-start p-xl-4 p-3" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" tabindex="-1">
                         <div class="d-flex">
                             <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-credit-card-2-front-fill text-secondary" viewBox="0 0 16 16">
-                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"></path>
-                                </svg>
+                                <i class="fa-solid fa-building-columns" style="color: var(--xt-secondary)"></i>
                             </div>
                         </div>
                         <div class="ms-4">
                             <h4 class="mb-0">Para Universidades</h4>
-                            <p class="mb-0 mt-lg-3 d-none d-lg-block">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend. Simple dummy content.</p>
+                            <p class="mb-0 mt-lg-3 d-none d-lg-block">
+                                Elevamos a experiência universitária com soluções tecnológicas avançadas, proporcionando uma educação superior adaptável e eficaz.
+                            </p>
                         </div>
                     </a>
                     <a href="https://block.codescandy.com/landing-finance.html#" class="nav-link d-flex text-start p-xl-4 p-3 align-items-center align-items-lg-start" id="v-pills-enterprises-tab" data-bs-toggle="pill" data-bs-target="#v-pills-enterprises" role="tab" aria-controls="v-pills-enterprises" aria-selected="false" tabindex="-1">
                         <div class="d-flex">
                             <div class="icon-md icon-shape rounded-circle bg-white shadow-sm">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cash-stack text-secondary" viewBox="0 0 16 16">
-                                    <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
-                                    <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"></path>
-                                </svg>
+                                <i class="fa-solid fa-building" style="color: var(--xt-secondary)"></i>
                             </div>
                         </div>
                         <div class="ms-4">
                             <h4 class="mb-0">Para Empresas</h4>
                             <p class="mb-0 mt-lg-3 d-none d-lg-block">
-                                In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum. Vivamus sit amet luctus leo. Simple dummy content.
+                                Potencialize o aprendizado corporativo com nossas soluções especializadas, impulsionando o desenvolvimento e a inovação dentro das organizações.
                             </p>
                         </div>
                     </a>

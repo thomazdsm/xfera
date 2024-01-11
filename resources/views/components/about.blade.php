@@ -14,15 +14,21 @@
         <div class="row mb-7 pb-4 g-5 text-center text-lg-start">
             <div class="col-md-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                 <h4 class="text-white-stable">Ambiente Seguro e Confiável</h4>
-                <p class="text-white-50 mb-0">you are able to run your business smoothly; handle your daily expenses and secure your cash flow.</p>
+                <p class="text-white-50 mb-0">
+                    Segurança em primeiro lugar: Ambiente virtual robusto e protegido para uma experiência de aprendizado tranquila.
+                </p>
             </div>
             <div class="col-md-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
                 <h4 class="text-white-stable">Design Moderno e Responsivo</h4>
-                <p class="text-white-50 mb-0">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend..</p>
+                <p class="text-white-50 mb-0">
+                    Destaque-se com estilo: Design visualmente atraente e responsivo para uma experiência adaptável em qualquer dispositivo.
+                </p>
             </div>
             <div class="col-md-4" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
                 <h4 class="text-white-stable">Fácil de Administrar</h4>
-                <p class="text-white-50 mb-0">In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum. Vivamus sit amet luctus leo.</p>
+                <p class="text-white-50 mb-0">
+                    Simples e eficiente: Nossas soluções são intuitivas, facilitando a administração, mesmo para usuários não técnicos.
+                </p>
             </div>
         </div>
         <div class="row border-secondary border-top g-5 g-lg-0 text-center text-lg-start" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">

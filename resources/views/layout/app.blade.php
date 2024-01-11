@@ -5,6 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="description" content="Somos a XFera Tech, sua parceira de confiança no desenvolvimento de plataformas inovadoras. Combinamos expertise e paixão para oferecer soluções de ponta em eventos acadêmicos e ensino EAD. Junte-se a nós e embarque na jornada da educação digital.">
+    <meta name="keywords" content="EAD, Educação a Distância, Ensino EAD, AVA, Ambiente Virtual de Aprendizagem, Eventos Acadêmicos">
+    <meta name="author" content="XFera Tech">
+
+    <meta property="og:title" content="XFera Tech">
+    <meta property="og:description" content="Somos a XFera Tech, sua parceira de confiança no desenvolvimento de plataformas inovadoras. Combinamos expertise e paixão para oferecer soluções de ponta em eventos acadêmicos e ensino EAD. Junte-se a nós e embarque na jornada da educação digital.">
+    <meta property="og:image" content="{{ asset('img/xfera/logo.png') }}">
+
     <title>XFera Tech</title>
     <link rel="icon" type="image/png" href="{{ asset('img/xfera/logo.png') }}">
 
@@ -21,7 +29,6 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
 </head>
 <body style="">
     @include('components.navbar')

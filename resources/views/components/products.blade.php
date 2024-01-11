@@ -20,85 +20,63 @@
                 <div class="col-lg-4 col-md-6" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                     <div class="card border-0 card-primary h-100">
                         <div class="card-body p-5">
-                            <div class="position-relative d-inline-block mb-5">
-                                <img src="{{ asset('img/feature-img-1.jpg') }}" alt="feature" class="avatar avatar-xl rounded-circle border-2 border border-white shadow-sm">
-
-                                <div class="position-absolute bottom-0 end-0">
-                                    <div class="icon-md icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bank2 text-secondary" viewBox="0 0 16 16">
-                                            <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"></path>
-                                        </svg>
+                            <div class="w-100 text-center pb-4">
+                                <div class="position-relative d-inline-block">
+                                    <div class="bottom-0 end-0">
+                                        <div class="icon-xl icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
+                                            <i class="fa-solid fa-graduation-cap" style="font-size: 30px; color: var(--xt-secondary)"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-2">
                                 <h4 class="card-title">Ambiente Virtual de Aprendizagem</h4>
-                                <p class="mb-0 card-text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lacinia gsmod dui euismod id.</p>
+                                <p class="mb-0 card-text">
+                                    Embarque em uma jornada educacional transformadora com nosso Ambiente Virtual de Aprendizagem (AVA). Oferecemos uma plataforma intuitiva e envolvente, projetada para facilitar o aprendizado a distância de forma eficiente. Com recursos avançados de interação, avaliação e colaboração, o AVA da XFera Tech proporciona uma experiência educacional que vai além dos limites tradicionais.
+                                </p>
                             </div>
-
-                            <a href="https://block.codescandy.com/landing-finance.html#!" class="icon-link icon-link-hover card-link">
-                                View All Accounts
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                                </svg>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 200ms; animation-direction: normal; animation-fill-mode: both;">
                     <div class="card border-0 card-primary h-100">
                         <div class="card-body p-5">
-                            <div class="position-relative d-inline-block mb-5">
-                                <img src="{{ asset('img/feature-img-2.jpg') }}" alt="feature" class="avatar avatar-xl rounded-circle border-2 border border-white shadow-sm">
-
-                                <div class="position-absolute bottom-0 end-0">
-                                    <div class="icon-md icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-credit-card-2-front-fill text-secondary" viewBox="0 0 16 16">
-                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"></path>
-                                        </svg>
+                            <div class="w-100 text-center pb-4">
+                                <div class="position-relative d-inline-block">
+                                    <div class="bottom-0 end-0">
+                                        <div class="icon-xl icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">                                            <i class="fa-regular fa-lightbulb" style="font-size: 30px; color: var(--xt-secondary)"></i>
+                                            <i class="fa-regular fa-lightbulb" style="font-size: 30px; color: var(--xt-secondary)"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-2">
                                 <h4 class="card-title">Hub de Inovação</h4>
-                                <p class="mb-0 card-text">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend.</p>
+                                <p class="mb-0 card-text">
+                                    Introduzindo o Hub de Inovação XFera Tech, uma solução personalizada que coloca você no controle. Desenvolvemos este hub exclusivamente para você, proporcionando um espaço dedicado onde você pode publicar suas pesquisas, compartilhar insights e liderar discussões em seu próprio blog educacional. Com total autonomia, administre e molde seu Hub de Inovação de acordo com suas necessidades. Estamos aqui para transformar sua visão em realidade, capacitando-o a inspirar, colaborar e inovar no seu ritmo único.
+                                </p>
                             </div>
-
-                            <a href="https://block.codescandy.com/landing-finance.html#!" class="icon-link icon-link-hover card-link">
-                                Apply Credit Cards
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                                </svg>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
                     <div class="card border-0 card-primary h-100">
                         <div class="card-body p-5">
-                            <div class="position-relative d-inline-block mb-5">
-                                <img src="{{ asset('img/feature-img-3.jpg') }}" alt="feature" class="avatar avatar-xl rounded-circle border-2 border border-white shadow-sm">
-
-                                <div class="position-absolute bottom-0 end-0">
-                                    <div class="icon-md icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cash-stack text-secondary" viewBox="0 0 16 16">
-                                            <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
-                                            <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"></path>
-                                        </svg>
+                            <div class="w-100 text-center pb-4">
+                                <div class="position-relative d-inline-block">
+                                    <div class="bottom-0 end-0">
+                                        <div class="icon-xl icon-shape rounded-circle bg-white me-n2 mb-n2 shadow-sm">
+                                            <i class="fa-solid fa-users-rays" style="font-size: 30px; color: var(--xt-secondary)"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-5">
+                            <div class="mb-2">
                                 <h4 class="card-title">Eventos Acadêmicos</h4>
-                                <p class="mb-0 card-text">In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum.</p>
+                                <p class="mb-0 card-text">
+                                    Desenvolva, promova e participe de eventos acadêmicos excepcionais com a expertise da XFera Tech. Nossa plataforma para Eventos Acadêmicos é projetada para simplificar a gestão de conferências, workshops e atividades educacionais. Desde a inscrição até a entrega suave do evento, oferecemos soluções abrangentes que elevam a experiência de participantes e organizadores, destacando a inovação em cada interação.
+                                </p>
                             </div>
-
-                            <a href="https://block.codescandy.com/landing-finance.html#!" class="icon-link icon-link-hover card-link">
-                                Start Investments
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                                </svg>
-                            </a>
                         </div>
                     </div>
                 </div>
