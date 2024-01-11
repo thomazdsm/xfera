@@ -1,14 +1,17 @@
 <!--Your finance start-->
-<section class="my-xl-9 my-5">
+<section class="py-xl-9 py-5">
     <div class="container" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
         <div class="row">
             <div class="col-xl-8 offset-xl-2">
                 <div class="text-center mb-xl-7 mb-5">
                     <h2 class="mb-3">
-                        A one-stop shop for
-                        <span class="text-secondary">your finances.</span>
+                        A solução ideal para o
+                        <span class="text-secondary">Ensino a Distância.</span>
                     </h2>
-                    <p class="mb-0">Designed to work better together erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.</p>
+                    <p class="mb-0">
+                        Explore nossas soluções personalizadas, desenvolvidas para proporcionar experiências de aprendizado excepcionais.
+                        Da concepção à implementação, nossos produtos refletem a excelência e a inovação que definem a <span class="text-secondary">XFera Tech</span>.
+                    </p>
                 </div>
             </div>
         </div>
@@ -29,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="mb-5">
-                                <h4 class="card-title">Checking accounts</h4>
+                                <h4 class="card-title">Ambiente Virtual de Aprendizagem</h4>
                                 <p class="mb-0 card-text">Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lacinia gsmod dui euismod id.</p>
                             </div>
 
@@ -57,7 +60,7 @@
                                 </div>
                             </div>
                             <div class="mb-5">
-                                <h4 class="card-title">Credit cards</h4>
+                                <h4 class="card-title">Hub de Inovação</h4>
                                 <p class="mb-0 card-text">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend.</p>
                             </div>
 
@@ -86,7 +89,7 @@
                                 </div>
                             </div>
                             <div class="mb-5">
-                                <h4 class="card-title">Investment</h4>
+                                <h4 class="card-title">Eventos Acadêmicos</h4>
                                 <p class="mb-0 card-text">In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum.</p>
                             </div>
 

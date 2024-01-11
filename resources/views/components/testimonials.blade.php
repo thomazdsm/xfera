@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="text-center mb-xl-7 mb-5">
-                    <h2 class="mb-3">Customer success stories</h2>
+                    <h2 class="mb-3">Histórias de sucesso</h2>
                     <p class="mb-0">Create convincing customer success stories to boost sales, build trust with prospects and increase customer loyalty.</p>
                 </div>
             </div>

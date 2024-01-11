@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-xl-8 offset-xl-2 col-12">
                 <div class="text-center mb-xl-7 mb-5">
-                    <h2 class="text-white-stable mb-3">Why do over 5M members love?</h2>
+                    <h2 class="text-white-stable mb-3">Por quê escolher a XFera Tech?</h2>
                     <p class="mb-0 text-white-50">
-                        Enim sed parturient sem enim nunc sit erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.
+                        Na XFera Tech, somos impulsionados pela paixão por transformar a educação. Desde 2023, estamos comprometidos em criar experiências excepcionais em eventos acadêmicos e ensino a distância. Nossa equipe é formada por mentes criativas e inovadoras, prontas para enfrentar os desafios do futuro da aprendizagem.
                     </p>
                 </div>
             </div>

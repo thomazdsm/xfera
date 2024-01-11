@@ -1,16 +1,38 @@
 @extends('layout.app')
 
 @section('content')
-    @include('components.home') {{-- Banner principal --}}
-    @include('components.clients') {{-- As feature in --}}
-    @include('components.products') {{-- Finances --}}
+    <section id="home">
+        @include('components.home') {{-- Banner principal --}}
+    </section>
 
-    @include('components.section1') {{-- Numbers --}}
-    @include('components.section2') {{-- Products --}}
-    @include('components.section3') {{-- Step by Step --}}
+    <section id="clients">
+        @include('components.clients') {{-- As feature in --}}
+    </section>
 
-    @include('components.testimonials') {{-- Testimonials --}}
-    @include('components.contato') {{-- Blank Section --}}
+    <section id="products">
+        @include('components.products') {{-- Finances --}}
+    </section>
+    <section id="about">
+        @include('components.about') {{-- Numbers --}}
+    </section>
 
-    @include('components.section4') {{-- Start using --}}
+    <section id="for-you">
+        @include('components.for-you') {{-- Products --}}
+    </section>
+
+    <section id="how-to">
+        @include('components.how-to') {{-- Step by Step --}}
+    </section>
+
+    <section id="testimonials">
+        @include('components.testimonials') {{-- Testimonials --}}
+    </section>
+
+    <section id="contato">
+        @include('components.contato') {{-- Blank Section --}}
+    </section>
+
+    <section id="explore">
+        @include('components.explore') {{-- Start using --}}
+    </section>
 @endsection

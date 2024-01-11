@@ -17,17 +17,17 @@
                 <div class="offcanvas-body pt-0 align-items-center">
                     <ul class="navbar-nav mx-auto align-items-lg-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Item 1</a>
+                            <a class="nav-link" href="#products">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Item 2</a>
+                            <a class="nav-link" href="#about">Sobre nós</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Item 3</a>
+                            <a class="nav-link" href="#for-you">Para você</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item 4</a>
-                        </li>
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link" href="#">Item 4</a>--}}
+{{--                        </li>--}}
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acessibilidade</a>
                             <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">

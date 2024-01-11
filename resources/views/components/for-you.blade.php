@@ -1,14 +1,16 @@
 <!--Product designer start-->
-<section class="my-xl-9 my-5">
+<section class="py-xl-9 py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="text-center mb-xl-7 mb-5" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                     <h2 class="mb-3">
-                        Products designed for
-                        <span class="text-secondary">all sizes businesses.</span>
+                        Soluções desenvolvidas para a
+                        <span class="text-secondary"> sua necessidade.</span>
                     </h2>
-                    <p class="mb-0">Enim sed parturient sem enim nunc sit erat velit eget hac nulla nullam et id praesent nisi ornare risus risus consequat nunc nisl pellentesque diam neque.</p>
+                    <p class="mb-0">
+                        Orgulhosamente servimos uma ampla gama de instituições educacionais e organizações de eventos acadêmicos. Nossos clientes são a força motriz por trás da nossa dedicação contínua em fornecer soluções tecnológicas de alta qualidade.
+                    </p>
                 </div>
             </div>
         </div>
@@ -24,7 +26,7 @@
                             </div>
                         </div>
                         <div class="ms-4">
-                            <h4 class="mb-0">For small business</h4>
+                            <h4 class="mb-0">Para Escolas</h4>
                             <p class="mb-0 mt-lg-3 d-none d-lg-block">Interdum et malesuad a fames ac ante ipsum primis in faucibus. Simple dummy content. Sed lacinia gsmod dui euismod id.</p>
                         </div>
                     </a>
@@ -37,7 +39,7 @@
                             </div>
                         </div>
                         <div class="ms-4">
-                            <h4 class="mb-0">For startups</h4>
+                            <h4 class="mb-0">Para Universidades</h4>
                             <p class="mb-0 mt-lg-3 d-none d-lg-block">Nullam sodales, libero ac dictum convallis, ipsum diam cursus stibulum lacinia ultricies eleifend. Simple dummy content.</p>
                         </div>
                     </a>
@@ -51,7 +53,7 @@
                             </div>
                         </div>
                         <div class="ms-4">
-                            <h4 class="mb-0">For enterprises</h4>
+                            <h4 class="mb-0">Para Empresas</h4>
                             <p class="mb-0 mt-lg-3 d-none d-lg-block">
                                 In a odio sit amet nisi tincidunt congue. Mauris cursus magna a vestibulum rutrum. Vivamus sit amet luctus leo. Simple dummy content.
                             </p>
