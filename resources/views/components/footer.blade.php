@@ -12,7 +12,8 @@
                         </a>
                     </div>
                     <p class="mb-5" style="text-align: justify">
-                        Somos a XFera Tech, sua parceira de confiança no desenvolvimento de plataformas inovadoras desde 2023. Combinamos expertise e paixão para oferecer soluções de ponta em eventos acadêmicos e ensino EAD. Junte-se a nós e embarque na jornada da educação digital.
+                        Somos a XFera Tech, sua parceira de confiança no desenvolvimento de plataformas inovadoras.
+                        Combinamos expertise e paixão para oferecer soluções de ponta em eventos acadêmicos e ensino EAD. Junte-se a nós e embarque na jornada da educação digital.
                     </p>
                 </div>
             </div>

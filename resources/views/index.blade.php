@@ -6,7 +6,7 @@
     </section>
 
     <section id="clients">
-        @include('components.clients') {{-- As feature in --}}
+{{--        @include('components.clients') {{-- As feature in -}}--}}
     </section>
 
     <section id="products">
@@ -28,8 +28,12 @@
         @include('components.testimonials') {{-- Testimonials --}}
     </section>
 
-    <section id="contato">
-        @include('components.contato') {{-- Blank Section --}}
+    <section id="contact">
+        @include('components.contato') {{-- Contact Section --}}
+    </section>
+
+    <section id="community">
+        @include('components.community') {{-- Community Section --}}
     </section>
 
     <section id="explore">
